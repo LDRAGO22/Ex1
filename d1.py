@@ -26,7 +26,7 @@ col1,col2=st.colums(2)
 with col1:
       st.metric("total revenue", f"${df['Total'].sum():,.2f}")
 with col2:
-      st.metric("total orders, len(df))  
+      st.metric("total orders, len(df))
 
 with col1:
 # Data Table
